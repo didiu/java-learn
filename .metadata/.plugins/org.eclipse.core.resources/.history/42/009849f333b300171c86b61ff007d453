@@ -1,0 +1,16 @@
+package 基础语法及进阶知识;
+
+public class Jiekou {
+
+	public static void main(String[] args) {
+		// TODO 自动生成的方法存根
+
+	}
+}
+interface Animal{
+	void bark();
+	void eat();
+}  
+interface Dog extends Animal{
+	void run();
+}

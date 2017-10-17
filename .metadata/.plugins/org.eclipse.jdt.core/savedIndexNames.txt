@@ -1,0 +1,20 @@
+INDEX VERSION 1.127+E:\Documents\GitHub\java-learn\.metadata\.plugins\org.eclipse.jdt.core
+3010347506.index
+823041432.index
+189042495.index
+1566973887.index
+3994687413.index
+572759510.index
+1493896562.index
+4072633670.index
+1332262579.index
+2630879490.index
+4278753601.index
+2010124860.index
+164757205.index
+2394826793.index
+1856861622.index
+3878018792.index
+88191887.index
+2687387639.index
+2190502342.index

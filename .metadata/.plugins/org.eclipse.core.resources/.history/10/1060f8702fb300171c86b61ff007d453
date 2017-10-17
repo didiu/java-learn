@@ -1,0 +1,22 @@
+/*
+ * java继承
+ * */
+public class Jicheng extends anamil {
+
+	public void bork(){
+		
+	}
+	public static void main(String[] args) {
+		// TODO 自动生成的方法存根
+		
+	}
+
+}
+class anamil{
+	public void bork(){
+		System.out.println("叫声");
+	}
+	public void sleep(){
+		System.out.println("睡觉");
+	}
+}
