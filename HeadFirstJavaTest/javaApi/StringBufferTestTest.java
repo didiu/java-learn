@@ -8,7 +8,6 @@ class StringBufferTestTest {
 
 	@Test
 	void testAdd() {
-		System.out.println(new StringBufferTest().add());
-		assertEquals(new String("www.runoob.com"), new StringBufferTest().add());
+		assertEquals(new String("www.runoob.com"), new StringBufferTest().add().toString());
 	}
 }
