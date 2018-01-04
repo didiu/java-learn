@@ -1,7 +1,7 @@
 package javaApi;
 import java.util.ArrayList;
 public class ArrayListLearn {
-	public static void main(String[] args) {
+	public static void arraylist(String[] args) {
 		ArrayList<Egg> myList=new ArrayList<Egg>();
 		
 		Egg a=new Egg();
