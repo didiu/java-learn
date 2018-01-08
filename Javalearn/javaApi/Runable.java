@@ -1,7 +1,7 @@
 package javaApi;
 
 public class Runable {
-    public static void main(String [] args){
+    public  void sellTicket(){
         MutliThread m=new MutliThread();
         Thread t1=new Thread(m,"Window 1");
         Thread t2=new Thread(m,"Window 2");
