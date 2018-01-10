@@ -1,7 +1,8 @@
 #Idea
-/bin
+/bin/
 *.iml
-/.idea
+/.idea/
 #myEclipse
 .project
 .classpath
+.settings/
