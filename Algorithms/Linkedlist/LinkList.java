@@ -95,7 +95,7 @@ public class LinkList<T> {
         prev=curr;
         curr=curr.next;
       }
-      if (suc == false) {
+      //if (suc == false) {
         System.out.println('\n'+"none data");
     }
 }
