@@ -74,28 +74,30 @@ public class LinkList<T> {
         boolean suc=false;
         while(curr!=null){
           if (curr.data.equals(data)) {
-            System.out.println('\n'+"delete head node");
-            head=curr.next;
-            suc=true;
-            return;
+            if (curr==head) {
+              System.out.println('\n'+"delete head node");
+              head=curr.next;
+              suc=true;
+              return;
+            }
+            if(curr==tail){
+              System.out.println('\n'+"delete tail Node");
+              tail=prev;
+              prev.next=null;
+              suc=true;
+              return;
+            }else{
+              System.out.println("\n"+"delete Node");
+              prev.next=curr.next;
+              suc=true;
+              return;
+            }
           }
-          if(curr==tail){
-            System.out.println('\n'+"delete tail Node");
-            tail=prev;
-            prev.next=null;
-            suc=true;
-            return;
-          }else{
-            System.out.println("\n"+"delete Node");
-            prev.next=curr.next;
-            suc=true;
-            return;
-          }
+          prev=curr;
+          curr=curr.next;
         }
-        prev=curr;
-        curr=curr.next;
+        if (suc == false) {
+          System.out.println('\n'+"none data");
       }
-      //if (suc == false) {
-        System.out.println('\n'+"none data");
     }
 }
