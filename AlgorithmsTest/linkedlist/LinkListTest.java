@@ -13,4 +13,20 @@ public class LinkListTest{
       mylist.delete(4);
       mylist.printLinkList();
     }
+
+    @Test
+    void testLinkListOne(){
+      LinkListOne<String> mylist=new LinkListOne<String>();
+      mylist.addHead("1");
+      mylist.addHead("2");
+      mylist.addHead("3");
+      mylist.addHead("4");
+      mylist.addTail("0");
+      mylist.printLinkList();
+      //mylist.delete("cdfafa");
+      //mylist.printLinkList();
+      //mylist.insert(1,"first");
+      //mylist.printLinkList();
+      //mylist.isExist("first");
+    }
 }

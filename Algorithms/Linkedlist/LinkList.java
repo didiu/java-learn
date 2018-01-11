@@ -1,3 +1,4 @@
+//网上抄的例子
 package linkedlist;
 
 public class LinkList<T> {
@@ -70,7 +71,8 @@ public class LinkList<T> {
     }
 
     public void delete(T data){
-        Node<T> curr=this.head, prev=null;
+        Node<T> curr=this.head;
+        Node<T> prev=null;
         boolean suc=false;
         while(curr!=null){
           if (curr.data.equals(data)) {
