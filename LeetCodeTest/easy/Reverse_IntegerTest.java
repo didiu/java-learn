@@ -13,4 +13,12 @@ class Reverse_IntegerTest {
         assertEquals(21,new Reverse_Integer().reverseInteger(120));
         assertEquals(0,new Reverse_Integer().reverseInteger(1534236469));
     }
+
+    @Test
+    void testReverseIntegerTwo(){
+      assertEquals(321,new Reverse_Integer().reverseIntegerTwo(123));
+      assertEquals(-321,new Reverse_Integer().reverseIntegerTwo(-123));
+      assertEquals(21,new Reverse_Integer().reverseIntegerTwo(120));
+      assertEquals(0,new Reverse_Integer().reverseIntegerTwo(1534236469));
+    }
 }
