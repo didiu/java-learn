@@ -8,13 +8,28 @@
  * 		也就是选择3和5交换，一次排序后就变成了3,5,8,6,4.对剩下的序列一次进行选择和交换，
  * 		最终就会得到一个有序序列。
  * 时间复杂度O(n²)。
+ * 碰到的错误：
+ * 	1.标志位应该设为下标，这样方便换位置。不设为下标位置只能换一半。
  */
 
 package sort;
 
 public class Select_Sort {
 	public int[] select_Sort(int[] testArray) {
-		
+		int min;
+		for (int i = 0; i < testArray.length; i++) {
+			min=i;
+			for (int j = i+1; j < testArray.length; j++) {
+				if (testArray[min]>testArray[j]){
+					min=j;
+				}
+			}
+			if (i!=min){
+				int temp=testArray[min];
+				testArray[min]=testArray[i];
+				testArray[i]=temp;
+			}
+		}
 		return testArray;
 	}
 }
