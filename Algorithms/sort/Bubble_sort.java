@@ -12,13 +12,17 @@
 package sort;
 
 public class Bubble_sort {
+
 	public int[] bubbleSort(int[] args) {
-		for (int i = 0; i < args.length-1; i++) {
+	    boolean flag=true;
+		for (int i = 0; i < args.length-1&&flag; i++) {
+		    flag=false;
 			for (int j = args.length-1; j >i; j--) {
 				if (args[j]<args[j-1]) {
 					int temp=args[j];
 					args[j]=args[j-1];
 					args[j-1]=temp;
+					flag=true;
 				}
 			}
 		}

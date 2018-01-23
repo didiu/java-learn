@@ -50,8 +50,10 @@ public class LinkList<T> {
         @SuppressWarnings({"unchecked","rawtypes"})
         Node<T> newNode =new Node(point);
         //preNext=head.next;
+        //this.head.next=newNode;
+        //newNode.next=preNext;
+        newNode.next=this.head.next;
         this.head.next=newNode;
-        newNode.next=preNext;
       }
     }
 
