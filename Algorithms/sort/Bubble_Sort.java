@@ -11,7 +11,7 @@
 
 package sort;
 
-public class Bubble_sort {
+public class Bubble_Sort {
 
 	public int[] bubbleSort(int[] args) {
 	    boolean flag=true;

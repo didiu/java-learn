@@ -8,14 +8,14 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
-class Bubble_sortTest {
+class Bubble_SortTest {
 
 	@Test
 	void testBubbleSort() {
 		int[] testArray=new int[] {5,4,2,1,3};
 		int[] resultArray=new int[] {1,2,3,4,5};
 		for (int i = 0; i < testArray.length; i++) {
-			assertEquals(resultArray[i], new Bubble_sort().bubbleSort(testArray)[i]);
+			assertEquals(resultArray[i], new Bubble_Sort().bubbleSort(testArray)[i]);
 		}
 	}
 
