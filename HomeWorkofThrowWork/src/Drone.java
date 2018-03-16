@@ -23,7 +23,7 @@ public class Drone {
                 System.out.println("Please enter signal index：");
                 if (scanner.hasNextInt()){
                     int ID = scanner.nextInt();
-                    this.Check(ID, read);
+                    this.check(ID, read);
                 }
                 else {
                     System.out.println("Please enter int type");
@@ -74,7 +74,7 @@ public class Drone {
         return sum;
     }
 
-    private void Check(int ID, String[][] save) {
+    private void check(int ID, String[][] save) {
         if (ID >=save.length) {
             System.out.println("Cannot find " + ID);
         } else {
