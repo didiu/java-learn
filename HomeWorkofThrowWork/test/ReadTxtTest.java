@@ -8,9 +8,9 @@ class ReadTxtTest {
 
     @Test
     void readTxt() {
-        ArrayList arrayList = new Drone().deal();
-        for (int i = 0; i <arrayList.size() ; i++) {
+        //ArrayList arrayList = new Drone().deal();
+        //for (int i = 0; i <arrayList.size() ; i++) {
 
         }
     }
-}
+//}
