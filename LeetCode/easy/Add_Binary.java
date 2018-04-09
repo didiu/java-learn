@@ -12,7 +12,7 @@ package easy;
 public class Add_Binary{
 
   public String addBinary(String a,String b){
-    if (a=="0"&&b=="0") {
+    if (a.equals("0") && b.equals("0")) {
       return "0";
     }else{
     StringBuilder sb=new StringBuilder();
