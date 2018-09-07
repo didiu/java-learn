@@ -31,8 +31,8 @@ public class Bubble_Sort {
 	public static void main(String[] args) {
 		int[] testArray=new int[]{5,4,2,1,3};
 		new Bubble_Sort().bubbleSort(testArray);
-		for (int i = 0; i < testArray.length; i++) {
-			System.out.print(testArray[i]+" ");
+		for (int aTestArray : testArray) {
+			System.out.print(aTestArray + " ");
 		}
 	}
 }

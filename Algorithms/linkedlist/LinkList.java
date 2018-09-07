@@ -27,7 +27,7 @@ public class LinkList<T> {
     }
 
     //加头节点
-    public void addHead(T point){
+    private void addHead(T point){
         this.head=new Node<T>(point);
         if (tail==null){
             tail=head;
@@ -35,12 +35,12 @@ public class LinkList<T> {
     }
 
     //增加尾节点
-    public void addTail(T point){
+    private void addTail(T point){
       tail=new Node<T>(point);
       head.next=tail;
     }
 
-    public void insert(T point){
+    void insert(T point){
       if(this.head==null){
         addHead(point);
       }else if(this.tail==this.head){
@@ -100,7 +100,7 @@ public class LinkList<T> {
           prev=curr;
           curr=curr.next;
         }
-        if (suc == false) {
+        if (!suc) {
           System.out.println('\n'+"none data");
       }
     }
