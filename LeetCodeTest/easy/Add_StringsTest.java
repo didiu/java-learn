@@ -1,10 +1,12 @@
 package easy;
 
-import org.junit.jupiter.api.Test;
+
+
+import org.junit.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class Add_StringsTest{
+public class Add_StringsTest{
   @Test
   public void testAddStrings(){
     assertEquals("0",new Add_Strings().addStrings("0","0"));

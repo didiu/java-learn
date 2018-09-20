@@ -1,10 +1,12 @@
 package easy;
 
-import org.junit.jupiter.api.Test;
+
+
+import org.junit.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class Two_Sum_1_Test {
+public class Two_Sum_1_Test {
 
 	@Test
 	public void TestTwoSum() {

@@ -1,11 +1,14 @@
 package easy;
 
 
-import org.junit.jupiter.api.Test;
+
+
+import org.junit.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class Add_DigitsTest{
+
+public class Add_DigitsTest{
   @Test
   public void testAddDigits(){
     assertEquals(0,new Add_Digits().addDigits(0));
