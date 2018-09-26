@@ -38,4 +38,22 @@ public class Palindrome_Number {
             return true;
         }
     }
+
+    /**
+     * 考虑到反转之后可能会大于int.MAXVALUE,所以只反转一半进行比较
+     * 吊
+     *
+     * */
+    public boolean soultion1(int x){
+        if (x<0||(x%10==0)&&x!=0){
+            return false;
+        }else{
+            int reverNumber=0;
+            while (x>reverNumber){
+                reverNumber=reverNumber*10+x%10;
+                x=x/10;
+            }
+            return x==reverNumber||x==reverNumber/10;
+        }
+    }
 }
