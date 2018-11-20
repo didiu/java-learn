@@ -22,7 +22,6 @@ public class Lambda {
 
         players.forEach(System.out::println);
 
-        MathOperation addition=()
 
         System.out.println();
 
