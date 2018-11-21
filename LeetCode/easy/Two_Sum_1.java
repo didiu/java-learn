@@ -53,7 +53,7 @@ public class Two_Sum_1 {
 	 /*
 	  * HashMap优化方案
 	  * 思路是一边加入map，一边进行检测是不是存在。
-	  * 只过一遍for循环，牛逼。
+	  * 只过一遍for循环
 	  */
 	 public int[] twoSumHashMapTwo(int[] nums,int target) {
 		 Map<Integer, Integer> map=new  HashMap<>();
