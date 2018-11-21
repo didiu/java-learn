@@ -3,7 +3,8 @@ package easy.arraytest;
 import easy.array.Monotonic_Array;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static junit.framework.TestCase.assertEquals;
+
 
 public class Monotonic_Array_Test {
     @Test
