@@ -1,7 +1,7 @@
 package easy.arraytest;
 
 import easy.array.Find_All_Numbers_Disappeared_in_an_Array;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 public class Find_All_Numbers_Disappeared_in_an_Array_Test {
     @Test

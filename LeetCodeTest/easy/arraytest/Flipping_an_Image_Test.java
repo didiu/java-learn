@@ -1,7 +1,7 @@
 package easy.arraytest;
 
 import easy.array.Flipping_an_Image;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 public class Flipping_an_Image_Test {
     @Test

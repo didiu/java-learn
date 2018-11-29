@@ -1,7 +1,7 @@
 package easy.arraytest;
 
 import easy.array.Fair_Candy_Swap;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 public class Fair_Candy_Swap_Test {
     @Test

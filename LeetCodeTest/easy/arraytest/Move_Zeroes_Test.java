@@ -1,7 +1,7 @@
 package easy.arraytest;
 
 import easy.array.Move_Zeroes;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 public class Move_Zeroes_Test {
     @Test

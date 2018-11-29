@@ -1,7 +1,7 @@
 package easy.arraytest;
 
 import easy.array.Monotonic_Array;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 import static junit.framework.TestCase.assertEquals;
 

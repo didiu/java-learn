@@ -1,7 +1,7 @@
 package easy.arraytest;
 
 import easy.array.Reshape_the_Matrix;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 public class Reshape_the_Matrix_Test {
     @Test

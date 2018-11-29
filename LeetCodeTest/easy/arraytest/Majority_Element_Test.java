@@ -1,7 +1,7 @@
 package easy.arraytest;
 
 import easy.array.Majority_Element;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 public class Majority_Element_Test {
     @Test

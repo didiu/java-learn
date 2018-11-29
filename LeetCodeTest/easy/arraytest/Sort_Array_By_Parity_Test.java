@@ -1,7 +1,7 @@
 package easy.arraytest;
 
 import easy.array.Sort_Array_By_Parity;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 public class Sort_Array_By_Parity_Test {
 

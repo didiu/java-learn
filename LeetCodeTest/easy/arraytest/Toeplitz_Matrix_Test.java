@@ -1,7 +1,7 @@
 package easy.arraytest;
 
 import easy.array.Toeplitz_Matrix;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 public class Toeplitz_Matrix_Test {
     @Test
