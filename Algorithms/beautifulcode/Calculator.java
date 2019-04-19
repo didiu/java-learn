@@ -9,16 +9,23 @@
  * */
 package beautifulcode;
 
+import java.io.*;
 import java.math.BigDecimal;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.Stack;
 
 public class Calculator {
 
-    public static void main(String[] args){
-        String obj = "3.0002+9.3333/3.3*(1+2)";
+    public static void main(String[] args) throws IOException {
+        String obj = "3.0002+(-9.3333)/3.3*(1+2)";
         ArrayList<String> arrayList = strFormat(obj);
         System.out.println(obj + "=" + calculator(arrayList));
+    }
+
+    public enum symbol{
+
     }
     /**
      * 采用后续表达式计算结果
@@ -38,21 +45,14 @@ public class Calculator {
                 BigDecimal num1, num2;
                 num1 = stack.pop(); //取出两个数
                 num2 = stack.pop();
-                switch (symbol) {
-                    case "+":
-                        stack.push(num2.add(num1));
-                        break;
-                    case "-":
-                        stack.push(num2.subtract(num1));
-                        break;
-                    case "*":
-                        stack.push(num2.multiply(num1));
-                        break;
-                    case "/":
-                        stack.push(num2.divide(num1,6, BigDecimal.ROUND_HALF_UP));
-                        break;
-                    default:
-                        break;
+                if ("+".equals(symbol)) {
+                    stack.push(num2.add(num1));
+                } else if ("-".equals(symbol)) {
+                    stack.push(num2.subtract(num1));
+                } else if ("*".equals(symbol)) {
+                    stack.push(num2.multiply(num1));
+                } else if ("/".equals(symbol)) {
+                    stack.push(num2.divide(num1, 8, BigDecimal.ROUND_HALF_UP));
                 }
             }
         }
@@ -67,6 +67,7 @@ public class Calculator {
         ArrayList<String> result = new ArrayList<>();
         for (int index = 0; index < arrayList.size(); index++) {
             String symbol = arrayList.get(index);
+            System.out.println("isDigital"+isDigital(symbol));
             if (isDigital(symbol)) { //如果是数字直接输出
                 result.add(symbol);
             } else if (symbol.equals(")")) {
@@ -147,37 +148,29 @@ public class Calculator {
     }
 
     private static int inPriority(String ch) {
-        switch (ch) {
-            case "+":
-            case "-":
-                return 2;
-            case "*":
-            case "/":
-                return 4;
-            case ")":
-                return 7;
-            case "(":
-                return 1;
-            default:
-                return 0;
+        if ("+".equals(ch) || "-".equals(ch)) {
+            return 2;
+        } else if ("*".equals(ch) || "/".equals(ch)) {
+            return 4;
+        } else if (")".equals(ch)) {
+            return 7;
+        } else if ("(".equals(ch)) {
+            return 1;
         }
+        return 0;
     }
 
     private static int outPriority(String ch) {
-        switch (ch) {
-            case "+":
-            case "-":
-                return 3;
-            case "*":
-            case "/":
-                return 5;
-            case ")":
-                return 1;
-            case "(":
-                return 7;
-            default:
-                return 0;
+        if ("+".equals(ch) || "-".equals(ch)) {
+            return 3;
+        } else if ("*".equals(ch) || "/".equals(ch)) {
+            return 5;
+        } else if (")".equals(ch)) {
+            return 1;
+        } else if ("(".equals(ch)) {
+            return 7;
         }
+        return 0;
     }
 
 }

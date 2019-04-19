@@ -1,22 +1,23 @@
 package javaApi;
 
-import java.math.BigDecimal;
-import java.math.RoundingMode;
+import javax.script.ScriptEngine;
+import javax.script.ScriptEngineManager;
+import javax.script.ScriptException;
 
-class test{
+public class test {
+
     public static void main(String[] args) {
-        System.out.println("aaa");
+        ScriptEngineManager manager = new ScriptEngineManager();
+        ScriptEngine scriptEngine = manager.getEngineByName("js");
+        String string = "1.3+2.5+-2.1";
 
-        String s="12.5";
-        String s1="12.23";
-        String s2="12.235";
-        BigDecimal bs=new BigDecimal(s);
-        BigDecimal bs1=new BigDecimal(s1);
-        BigDecimal bs2=new BigDecimal(s2);
-        System.out.println(bs.setScale(2,RoundingMode.HALF_UP));
-        System.out.println(bs1.setScale(2,RoundingMode.HALF_UP));
+        try {
+            Object result = scriptEngine.eval(string);
+            System.out.println("结果类型:" + result.getClass().getName() + ",计算结果:" + result);
+        } catch (ScriptException e) {
+            e.printStackTrace();
+        }
 
 
-        System.out.println(bs2.setScale(2,RoundingMode.HALF_UP));
     }
 }
