@@ -14,5 +14,6 @@ public class BRRead{
             c=(char)br.read();
             System.out.print(c);
         }while (c!='q');
+
     }
 }

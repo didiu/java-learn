@@ -1,4 +1,4 @@
-package beautifulcode;
+package code;
 
 public class Cpu implements Runnable{
 

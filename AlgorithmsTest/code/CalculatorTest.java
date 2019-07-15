@@ -1,4 +1,4 @@
-package beautifulcode;
+package code;
 
 import org.junit.Test;
 
