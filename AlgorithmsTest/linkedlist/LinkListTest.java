@@ -1,7 +1,7 @@
 package linkedlist;
 
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 public class LinkListTest{
     @Test
