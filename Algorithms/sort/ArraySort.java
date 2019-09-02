@@ -4,7 +4,7 @@ package sort;
 
         private int number;
 
-        public ArraySort(int number) {
+        private ArraySort(int number) {
             this.number = number;
         }
 
