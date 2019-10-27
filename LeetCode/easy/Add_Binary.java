@@ -9,9 +9,12 @@
 
 package easy;
 
-public class Add_Binary {
+import java.util.HashMap;
+import java.util.Map;
 
-    public String addBinary(String a, String b) {
+class Add_Binary {
+
+    String addBinary(String a, String b) {
         if (a.equals("0") && b.equals("0")) {
             return "0";
         } else {

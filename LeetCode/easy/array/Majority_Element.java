@@ -25,12 +25,12 @@ public class Majority_Element {
         Map<Integer,Integer> map=new HashMap<>();
         int output=0;
         int out=0;
-        for(int i=0;i<nums.length; i++){
-            if(!map.containsKey(nums[i])) map.put(nums[i],1);
-            else{
-                int str=map.get(nums[i]);
-                map.remove(nums[i]);
-                map.put(nums[i],str);
+        for (int num : nums) {
+            if (!map.containsKey(num)) map.put(num, 1);
+            else {
+                int str = map.get(num);
+                map.remove(num);
+                map.put(num, str);
             }
         }
 
