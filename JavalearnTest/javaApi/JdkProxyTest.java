@@ -1,5 +1,7 @@
 package javaApi;
 
+import cglib.UserDaoImpl1;
+import cglib.cglibProxy;
 import jdkProxy.JdkProxy;
 import jdkProxy.UserDao;
 import jdkProxy.UserDaoImpl;
@@ -19,5 +21,13 @@ class JdkProxyTest {
                 userDao.getClass().getInterfaces(),jdkProxy);
         userDao1.say();
         userDao1.endSay();
+    }
+
+    @Test
+    @DisplayName("cglib ")
+    void run2(){
+        UserDaoImpl1 userDao=new UserDaoImpl1();
+        UserDaoImpl1 userDao1= (UserDaoImpl1) new cglibProxy().create(userDao);
+        userDao1.say();
     }
 }
