@@ -1,6 +1,17 @@
 //网上抄的例子
 package linkedlist;
 
+
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode() {}
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
+ */
 public class LinkList<T> {
     private Node<T> head;//链表的头节点
     private Node<T> tail;//链表的尾节点

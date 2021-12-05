@@ -1,7 +1,9 @@
-package easy.array;
+package easy;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class Num372 {
     int MOD=1337;
@@ -25,6 +27,6 @@ public class Num372 {
     @Test
     @DisplayName(" 快速幂解法")
     void run(){
-        
+        assertEquals(1198,new Num372().superPow(2147483647, new int[]{2, 0, 0}));
     }
 }
