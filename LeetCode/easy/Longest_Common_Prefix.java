@@ -24,18 +24,14 @@ public class Longest_Common_Prefix {
     //错误的代码
     public String soulution(String[] strs){
         boolean flag=false;
-        StringBuffer stringBuffer=new StringBuffer();
+        StringBuilder stringBuffer=new StringBuilder();
         for (int j=0;j<strs[0].length();j++){
             try {
-                for (int i = 0; i < strs.length; i++) {
-                    if (strs[0].charAt(j) == strs[i].charAt(j)) {
+                for (String str : strs) {
+                    if (strs[0].charAt(j) == str.charAt(j)) {
                         flag = true;
                     } else {
-                        if (stringBuffer == null) {
-                            return "";
-                        } else {
-                            return stringBuffer.toString();
-                        }
+                        return stringBuffer.toString();
                     }
                 }
             }
@@ -43,7 +39,7 @@ public class Longest_Common_Prefix {
                 return stringBuffer.toString();
             }
 
-            if (flag==true){
+            if (flag){
                 stringBuffer.append(strs[0].charAt(j));
             }
         }
