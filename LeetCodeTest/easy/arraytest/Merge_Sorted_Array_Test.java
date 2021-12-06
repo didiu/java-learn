@@ -1,6 +1,6 @@
 package easy.arraytest;
 
-import easy.array.Merge_Sorted_Array;
+import Merge_Sorted_Array;
 import org.junit.Test;
 
 public class Merge_Sorted_Array_Test {

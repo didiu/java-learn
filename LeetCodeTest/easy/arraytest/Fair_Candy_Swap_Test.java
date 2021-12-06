@@ -1,6 +1,6 @@
 package easy.arraytest;
 
-import easy.array.Fair_Candy_Swap;
+import Fair_Candy_Swap;
 import org.junit.Test;
 
 public class Fair_Candy_Swap_Test {

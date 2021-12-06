@@ -1,6 +1,6 @@
 package easy.arraytest;
 
-import easy.array.Array_Partition_I;
+import Array_Partition_I;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

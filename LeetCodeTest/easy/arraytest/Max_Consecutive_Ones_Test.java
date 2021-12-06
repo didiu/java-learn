@@ -1,6 +1,6 @@
 package easy.arraytest;
 
-import easy.array.Max_Consecutive_Ones;
+import Max_Consecutive_Ones;
 import org.junit.Test;
 
 public class Max_Consecutive_Ones_Test {

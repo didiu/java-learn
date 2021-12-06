@@ -1,7 +1,7 @@
 package easy.string;
 
 import org.junit.Test;
-import string.Robot_Return_to_Origin;
+import Robot_Return_to_Origin;
 
 import static org.junit.Assert.assertEquals;
 

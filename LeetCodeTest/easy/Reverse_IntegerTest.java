@@ -4,7 +4,6 @@ package easy;
 
 import org.junit.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
 public class Reverse_IntegerTest {
 
     @Test

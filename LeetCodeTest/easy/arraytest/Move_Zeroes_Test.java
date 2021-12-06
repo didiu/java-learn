@@ -1,6 +1,6 @@
 package easy.arraytest;
 
-import easy.array.Move_Zeroes;
+import Move_Zeroes;
 import org.junit.Test;
 
 public class Move_Zeroes_Test {

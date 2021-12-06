@@ -1,7 +1,7 @@
 package easy.string;
 
 import org.junit.Test;
-import string.Unique_Morse_Code_Words;
+import Unique_Morse_Code_Words;
 
 import static org.junit.Assert.assertEquals;
 

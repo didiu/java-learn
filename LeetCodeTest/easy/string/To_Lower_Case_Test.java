@@ -1,7 +1,7 @@
 package easy.string;
 
 import org.junit.Test;
-import string.To_Lower_Case;
+import To_Lower_Case;
 
 import static org.junit.Assert.assertEquals;
 

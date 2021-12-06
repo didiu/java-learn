@@ -1,6 +1,6 @@
 package easy.arraytest;
 
-import easy.array.Two_Sum_II_Input_array_is_sorted;
+import Two_Sum_II_Input_array_is_sorted;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

@@ -1,6 +1,6 @@
 package easy.arraytest;
 
-import easy.array.Flipping_an_Image;
+import Flipping_an_Image;
 import org.junit.Test;
 
 public class Flipping_an_Image_Test {

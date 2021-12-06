@@ -1,7 +1,7 @@
 package easy.string;
 
 import org.junit.Test;
-import string.Unique_Email_Addresses;
+import Unique_Email_Addresses;
 
 import static org.junit.Assert.assertEquals;
 

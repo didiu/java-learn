@@ -1,6 +1,6 @@
 package easy.arraytest;
 
-import easy.array.Remove_Element;
+import Remove_Element;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

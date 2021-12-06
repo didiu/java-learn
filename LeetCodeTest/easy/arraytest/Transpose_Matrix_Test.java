@@ -1,6 +1,6 @@
 package easy.arraytest;
 
-import easy.array.Transpose_Matrix;
+import Transpose_Matrix;
 import org.junit.Test;
 
 public class Transpose_Matrix_Test {

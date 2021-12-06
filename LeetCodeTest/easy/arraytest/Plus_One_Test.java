@@ -1,6 +1,6 @@
 package easy.arraytest;
 
-import easy.array.Plus_One;
+import Plus_One;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

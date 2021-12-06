@@ -1,6 +1,6 @@
 package easy.arraytest;
 
-import easy.array.Toeplitz_Matrix;
+import Toeplitz_Matrix;
 import org.junit.Test;
 
 public class Toeplitz_Matrix_Test {

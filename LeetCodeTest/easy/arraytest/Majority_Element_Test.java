@@ -1,6 +1,6 @@
 package easy.arraytest;
 
-import easy.array.Majority_Element;
+import Majority_Element;
 import org.junit.Test;
 
 public class Majority_Element_Test {

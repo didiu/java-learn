@@ -1,6 +1,6 @@
 package easy.arraytest;
 
-import easy.array.Best_Time_to_Buy_and_Sell_Stock_II;
+import Best_Time_to_Buy_and_Sell_Stock_II;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

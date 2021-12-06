@@ -1,6 +1,6 @@
 package easy.arraytest;
 
-import easy.array.Monotonic_Array;
+import Monotonic_Array;
 import org.junit.Test;
 
 import static junit.framework.TestCase.assertEquals;

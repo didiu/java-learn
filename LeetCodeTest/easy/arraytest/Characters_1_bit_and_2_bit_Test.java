@@ -1,6 +1,6 @@
 package easy.arraytest;
 
-import easy.array.Characters_1_bit_and_2_bit;
+import Characters_1_bit_and_2_bit;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

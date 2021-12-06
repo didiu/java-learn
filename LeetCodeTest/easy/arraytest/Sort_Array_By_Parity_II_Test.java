@@ -1,6 +1,6 @@
 package easy.arraytest;
 
-import easy.array.Sort_Array_By_Parity_II;
+import Sort_Array_By_Parity_II;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

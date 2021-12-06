@@ -1,6 +1,6 @@
 package easy.arraytest;
 
-import easy.array.Contains_Duplicate;
+import Contains_Duplicate;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
