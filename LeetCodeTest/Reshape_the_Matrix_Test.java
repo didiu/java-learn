@@ -1,4 +1,3 @@
-import Reshape_the_Matrix;
 import org.junit.Test;
 
 public class Reshape_the_Matrix_Test {

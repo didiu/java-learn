@@ -1,4 +1,3 @@
-import Toeplitz_Matrix;
 import org.junit.Test;
 
 public class Toeplitz_Matrix_Test {

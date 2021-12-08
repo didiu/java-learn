@@ -1,5 +1,4 @@
 import org.junit.Test;
-import Unique_Morse_Code_Words;
 
 import static org.junit.Assert.assertEquals;
 

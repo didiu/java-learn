@@ -1,4 +1,3 @@
-import Flipping_an_Image;
 import org.junit.Test;
 
 public class Flipping_an_Image_Test {

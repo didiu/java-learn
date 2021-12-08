@@ -17,4 +17,7 @@ public class Reverse_IntegerTest {
       assertEquals(21,new Reverse_Integer().reverseIntegerTwo(120));
       assertEquals(0,new Reverse_Integer().reverseIntegerTwo(1534236469));
     }
+
+    private void assertEquals(int i, int reverseIntegerTwo) {
+    }
 }

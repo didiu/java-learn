@@ -1,4 +1,3 @@
-import Remove_Element;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

@@ -1,5 +1,4 @@
 import org.junit.Test;
-import Unique_Email_Addresses;
 
 import static org.junit.Assert.assertEquals;
 

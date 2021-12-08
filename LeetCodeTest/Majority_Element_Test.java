@@ -1,4 +1,3 @@
-import Majority_Element;
 import org.junit.Test;
 
 public class Majority_Element_Test {

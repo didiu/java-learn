@@ -1,4 +1,3 @@
-import Sort_Array_By_Parity;
 import org.junit.Test;
 
 public class Sort_Array_By_Parity_Test {

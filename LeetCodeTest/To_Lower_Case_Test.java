@@ -1,5 +1,4 @@
 import org.junit.Test;
-import To_Lower_Case;
 
 import static org.junit.Assert.assertEquals;
 
